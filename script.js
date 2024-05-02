@@ -20,7 +20,7 @@ const collectEmployees = function() {
     // prompt() trigers a prompt for user input
     employee.firstName = prompt("Enter first name:");
     employee.lastName = prompt("Enter last name:");
-    employee.salary = +prompt("Enter salary:"); // + in front of prompt(), converts strings to integers
+    employee.salary = Number(prompt("Enter salary:")); // Number() around prompt(), converts strings to integers
     
     // isNaN() checks to see if "employee.salary" is "Not a Number" 
     if (isNaN(employee.salary)) { 
@@ -60,7 +60,7 @@ const displayAverageSalary = function(employeesArray) {
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
 
-  // Math.random gives random numbers Math.floor rounds down to nearest integer 
+  // Math.random gives random numbers Math.floor rounds down to nearest whole integer 
   let rNumber = Math.floor(Math.random() * employeesArray.length);
 
   console.log(`Congratulations to ${employeesArray[rNumber].firstName} ${employeesArray[rNumber].lastName}, our random drawing winner!`);  
