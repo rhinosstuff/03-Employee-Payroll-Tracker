@@ -21,4 +21,5 @@ getRandomEmployee = function(employeesArray)
 
 To view the output of **displayAverageSalary()** & **getRandomEmployee()** you will need to inspect and view in the console.
 
-[This is a link to my published webpage.](https://rhinosstuff.github.io/03-Employee-Payroll-Tracker/)
+<a href="https://rhinosstuff.github.io/Employee-Payroll-Tracker/">
+This is a link to my published webpage.</a>
