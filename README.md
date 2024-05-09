@@ -1,4 +1,4 @@
-# 03-Employee-Payroll-Tracker
+# Employee-Payroll-Tracker
 
 ## Description
 This is a summary of what I did for the week 3 challenge. I was given an existing starter code with only 3 functions that I needed to implement code for. There were hints and addvice in the README.md, but I had to write the JS code from scratch. 
